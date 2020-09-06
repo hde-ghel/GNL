@@ -36,21 +36,19 @@ int			main(int argc, char **argv)
 ```
 The following would result from the above simple main:
 ```console
-$> ./test_gnl ann
-Pink hair
-Orange dress
-Loves Monki
-Eestlane
-Normaalne
+$> ./test_gnl test_file
+Pink
+Orange
+Love
+Hello world
 ```
 Which would be the same as:
 ```console
-$> cat ann
-Pink hair
-Orange dress
-Loves Monki
-Eestlane
-Normaalne
+$> cat test_file
+Pink
+Orange
+Love
+Hello world
 ```
 The function must conform to 42's norm.  
 The function cannot leak. All errors must be handled carefully. In no way can the function quit in an unexpected manner (Segmentation fault, bus error, double free, etc).  
